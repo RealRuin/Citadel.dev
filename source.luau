@@ -24,8 +24,16 @@ local t = Instance.new("TextLabel")
 t.Parent = f
 t.Position = UDim2.new(0, 20, 0, 20)
 t.Size = UDim2.new(0, 80, 0, 20)
-t.BackgroundTransparency = 1
+t.BackgroundColor3 = Color3.fromRGB(30,30,30)
 t.Text = "Citadel.dev"
 t.TextSize = 16
 t.TextColor3 = Color3.fromRGB(255,255,255)
 t.Font = Enum.Font.Code
+
+local uc1 = Instance.new("UICorner")
+uc1.Parent = t
+uc1.CornerRadius = UDim.new(0, 10)
+
+local us1 = Instance.new("UIStroke")
+us1.Parent = t
+us1.Color = Color3.fromRGB(117,113,94)
