@@ -24,6 +24,7 @@ local t = Instance.new("TextLabel")
 t.Parent = f
 t.Position = UDim2.new(0, 20, 0, 20)
 t.Size = UDim2.new(0, 80, 0, 20)
+t.BackgroundTransparency = 1
 t.Text = "Citadel.dev"
 t.TextSize = 16
 t.TextColor3 = Color3.fromRGB(255,255,255)
