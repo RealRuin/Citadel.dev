@@ -19,3 +19,12 @@ local us = Instance.new("UIStroke")
 us.Parent = f
 us.Thickness = 2
 us.Color = Color3.fromRGB(117,113,94)
+
+local t = Instance.new("TextLabel")
+t.Parent = f
+t.Position = UDim2.new(0, 20, 0, 20)
+t.Size = UDim2.new(0, 80, 0, 20)
+t.Text = "Citadel.dev"
+t.TextSize = 16
+t.TextColor3 = Color3.fromRGB(255,255,255)
+t.Font = Enum.Font.Code
